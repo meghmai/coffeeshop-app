@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.coffeeshop.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HardRock Cafe"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold|italic"
+            android:padding="8dp"
+            android:background="#009688"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/cafe"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:ignore="contentDescription"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location"
+            android:scaleType="centerCrop"
+            android:padding="1dp"
+            tools:ignore="contentDescription"/>
+                   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location: Himayatnagar,Hyderabad"
+                       android:textAppearance="?android:textAppearanceSmall"
+                android:padding="1dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:scaleType="centerCrop"
+            android:padding="1dp"
+            tools:ignore="contentDescription"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number: 9999999999"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:padding="1dp"
+                />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="24dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/website"
+            android:scaleType="centerCrop"
+            android:padding="1dp"
+            tools:ignore="contentDescription"/>
+                   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website: www.hardrockcafe.com"
+                       android:textAppearance="?android:textAppearanceSmall"
+                android:padding="1dp"
+                />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/time"
+            android:scaleType="centerCrop"
+            android:padding="1dp"
+            tools:ignore="contentDescription"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timings: 10 AM to 10 PM"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:padding="1dp"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/description"
+            android:scaleType="centerCrop"
+            android:padding="1dp"
+            tools:ignore="contentDescription"/>
+                <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+                    android:textAppearance="?android:textAppearanceSmall"
+            android:textStyle="bold"
+            android:padding="1dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="16dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HardRock is a wellknown cafe.It is famous for different coffees and bevarages."
+            android:textAppearance="?android:textAppearanceSmall"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
